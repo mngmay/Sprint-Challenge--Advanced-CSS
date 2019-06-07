@@ -1,1 +1,27 @@
 // Navigation code here
+
+.topnav {
+  .displayFlex(space-between, center, column);
+  height: 9rem;
+  margin: 0 auto;
+  background: @nav-bg;
+  border: @nav-border;
+
+
+  nav {
+    .displayFlex(space-around);
+    width: 425px; //better hard coded, because as it was responding it'd smoosh
+    padding-bottom: 10px;
+    
+    @media @phone {
+        width: 75%;
+        padding-bottom: 2%;
+    }
+
+    a {
+      font-size: 1.6rem;
+      color: @nav-font;
+      text-decoration: none;
+    }
+  }
+}

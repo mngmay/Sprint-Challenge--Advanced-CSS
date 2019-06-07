@@ -1,1 +1,34 @@
 // Mixins Here
+
+.displayFlex(@justify: space-between, @align: center, @direction: row){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    flex-direction: @direction;
+}
+
+.testBorder{
+    border: 1px solid blue;
+}
+
+//This button is eerily specific - but I figured best to have it exact for the main purpose, and override as needed
+.signBtn(@width: 10rem, @height: 3.4rem, @padding: 2%, @fontsize: 1.8rem, @bgcolor: @btn-bg-color, @fontcolor:white){
+    width: @width;
+    height: @height;
+    background-color: @bgcolor;
+    color: @fontcolor;
+    border-radius: 5px;
+    font-size: @fontsize;
+    text-align: center;
+    font-weight: 700;
+    padding: @padding;
+
+
+    &:hover {
+        background-color: @fontcolor;
+        color: @bgcolor;
+    }
+}
+
+
+
