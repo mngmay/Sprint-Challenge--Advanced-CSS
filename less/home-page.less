@@ -128,8 +128,60 @@
 }// home
 
 
-//Contact
+//Contact content
 
-.form {
-  .displayFlex(space-around, center, column);
+.inquiry {
+  h2 {
+    margin-bottom: 15px;
+  }
 }
+
+form {
+  .displayFlex(space-around, flex-start, column);
+  margin-top: 15px;
+
+  div {
+    margin: 2px;
+  }
+
+  .msg {
+    margin: 5px 0;
+    font-size: 1.2rem;
+  }
+}
+
+.contactinfo {
+  font-size: 1.6rem;
+  padding-bottom: 20px;
+  
+  h3{
+    padding-top: 20px;
+  }
+
+  .department {
+    .displayFlex();
+   padding: 20px 0;
+   width: 50%;
+   height: 150px;
+   border-bottom: 2px dashed lighten(@shuttle-gray,20%);
+  }
+
+  .department:last-child {
+    border: none;
+  }
+
+  .phonelabel {
+    font-weight: 800;
+    color: @ebony-clay;
+  }
+
+  .phonenumber {
+    font-size: 1.2rem;
+  }
+
+  li {
+    margin: 10px;
+  }
+}
+
+//contact

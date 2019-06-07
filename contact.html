@@ -31,11 +31,14 @@
       </nav>
     </section>
 
-    <div class="container home">
+    <div class="container contact">
       <header class="intro">
         <!-- image code here -->
         <img src="img/main-header.png" />
 
+      </header>
+
+        <section class ="inquiry">
         <h2>Get In Touch</h2>
 
         <p>
@@ -43,27 +46,48 @@
         </p>
 
         <form>
-            <ul>
-            <li>Name: <input type="text" name="fullname" placeholder="First & Last Name"></li>
-            <li>Phone Number: <input type="tel" name="phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            required></li>
-            <li>Email:</li> <input type="email" name="email"> 
-            <li><label for="message">Message</label></li>
-            <li><textarea name="message" placeholder="Write Your Message Here" rows="10" cols="50"></textarea></li>
-            <input type="submit">
-            </ul>
+            
+            <div><input type="text" name="fullname" placeholder="Full Name"></div>
+            <div><input type="tel" name="phone" placeholder="Phone ###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required></div>
+            <div><input type="email" name="email" placeholder="Email"></div> 
+            <div class="msg"><label for="message">Message</label></div>
+            <div><textarea name="message" placeholder="Write Your Message Here" rows="10" cols="50" style="resize:none;"></textarea><div>
+            <div><input type="submit"></div>
         </form>
-      </header>
-
+    </section>
 
       <section class="contactinfo">
         <h3>Need Immediate Assistance?</h3>
 
+        <div class ="department">
+        <h4>Customer Service</h4>
         <ul>
-            <li>Customer Service</li>
-            <li>Technical Support</li>
-            <li>Emergency Hotline</li>
+                <li class="phonelabel">Phone</li>
+                <li class="phonenumber">555-555-5555</li>
+                <li class="phonelabel">Toll-Free</li>
+                <li class="phonenumber">1-800-555-5555</li>
         </ul>
+    </div>
+    <div class ="department">
+        <h4>Technical Support</h4>
+        <ul>
+                <li class="phonelabel">Phone</li>
+                <li class="phonenumber">555-555-5555</li>
+                <li class="phonelabel">Toll-Free</li>
+                <li class="phonenumber">1-800-555-5555</li>
+            </ul>
+        </div>
+    <div class ="department">
+        <h4>Emergency Hotline</h4>
+        <ul>
+                <li class="phonelabel">Phone</li>
+                <li class="phonenumber">555-555-5555</li>
+                <li class="phonelabel">Toll-Free</li>
+                <li class="phonenumber">1-800-555-5555</li>
+            </ul>
+            </div>
+
       </section>
 
       </section>

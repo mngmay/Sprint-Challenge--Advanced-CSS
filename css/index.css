@@ -351,3 +351,50 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.inquiry h2 {
+  margin-bottom: 15px;
+}
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 15px;
+}
+form div {
+  margin: 2px;
+}
+form .msg {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+.contactinfo {
+  font-size: 1.6rem;
+  padding-bottom: 20px;
+}
+.contactinfo h3 {
+  padding-top: 20px;
+}
+.contactinfo .department {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 0;
+  width: 50%;
+  height: 150px;
+  border-bottom: 2px dashed #919497;
+}
+.contactinfo .department:last-child {
+  border: none;
+}
+.contactinfo .phonelabel {
+  font-weight: 800;
+  color: #23293B;
+}
+.contactinfo .phonenumber {
+  font-size: 1.2rem;
+}
+.contactinfo li {
+  margin: 10px;
+}
