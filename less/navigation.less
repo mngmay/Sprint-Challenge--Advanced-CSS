@@ -7,6 +7,9 @@
   background: @nav-bg;
   border: @nav-border;
 
+    @media @phone {
+        height: 8rem;
+    }
 
   nav {
     .displayFlex(space-around);
@@ -22,6 +25,10 @@
       font-size: 1.6rem;
       color: @nav-font;
       text-decoration: none;
+
+      @media @iphone5s {
+          font-size: 1.2rem;
+      }
     }
   }
 }

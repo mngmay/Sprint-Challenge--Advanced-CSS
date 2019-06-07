@@ -176,6 +176,11 @@ p {
   background: #F6F6F6;
   border: #F1F1F1;
 }
+@media (max-width: 500px) {
+  .topnav {
+    height: 8rem;
+  }
+}
 .topnav nav {
   display: flex;
   justify-content: space-around;
@@ -194,6 +199,11 @@ p {
   font-size: 1.6rem;
   color: #454A59;
   text-decoration: none;
+}
+@media (max-width: 400px) {
+  .topnav nav a {
+    font-size: 1.2rem;
+  }
 }
 footer {
   color: #22283B;
@@ -214,6 +224,7 @@ footer {
 @media (max-width: 500px) {
   .home .intro img {
     height: 13rem;
+    width: 100%;
   }
 }
 .home .space-images {
