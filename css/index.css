@@ -221,6 +221,19 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+@keyframes introimg {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.home .intro img {
+  position: relative;
+  animation-name: introimg;
+  animation-duration: 4s;
+}
 @media (max-width: 500px) {
   .home .intro img {
     height: 13rem;

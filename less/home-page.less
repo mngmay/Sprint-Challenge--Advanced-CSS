@@ -12,6 +12,17 @@
       padding:0 15px;
     }
   
+    @keyframes introimg {
+      0% {left: -1000px;}
+      100% {left: 0px;}
+    }
+
+    img {
+    position: relative;
+    animation-name: introimg;
+    animation-duration: 4s;
+    }
+
     @media @phone {
       img {
         height: 13rem;
