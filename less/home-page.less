@@ -130,10 +130,24 @@
 
 //Contact content
 
+.intro {
+  @media @phone {
+    img {
+      height: 13rem;
+      width: 100%;
+  }
+}
+}
+
 .inquiry {
   h2 {
     margin-bottom: 15px;
   }
+
+  @media @phone {
+    padding-left: 5%;
+  }
+
 }
 
 form {
@@ -154,6 +168,10 @@ form {
   font-size: 1.6rem;
   padding-bottom: 20px;
   
+  @media @phone {
+    padding: 0 5%;
+  }
+
   h3{
     padding-top: 20px;
   }
@@ -164,6 +182,10 @@ form {
    width: 50%;
    height: 150px;
    border-bottom: 2px dashed lighten(@shuttle-gray,20%);
+
+   @media @phone {
+    width: 100%;
+  }
   }
 
   .department:last-child {

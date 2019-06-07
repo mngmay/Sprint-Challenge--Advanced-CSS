@@ -351,8 +351,19 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .intro img {
+    height: 13rem;
+    width: 100%;
+  }
+}
 .inquiry h2 {
   margin-bottom: 15px;
+}
+@media (max-width: 500px) {
+  .inquiry {
+    padding-left: 5%;
+  }
 }
 form {
   display: flex;
@@ -372,6 +383,11 @@ form .msg {
   font-size: 1.6rem;
   padding-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .contactinfo {
+    padding: 0 5%;
+  }
+}
 .contactinfo h3 {
   padding-top: 20px;
 }
@@ -384,6 +400,11 @@ form .msg {
   width: 50%;
   height: 150px;
   border-bottom: 2px dashed #919497;
+}
+@media (max-width: 500px) {
+  .contactinfo .department {
+    width: 100%;
+  }
 }
 .contactinfo .department:last-child {
   border: none;
